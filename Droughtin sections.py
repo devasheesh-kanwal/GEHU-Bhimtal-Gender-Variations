@@ -2,6 +2,10 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
+#CleanData.csv does NOT contain any personal Info about any student
+
+
+
 if __name__ == "__main__":
 
     dataa = pd.read_csv("CleanData.csv")
